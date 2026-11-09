@@ -6,7 +6,6 @@ node_modules/
 .env.*
 !.env.example
 **/utils/apikeys.json
-**/utils/driveapikeys.js
 
 # Build output
 dist/
