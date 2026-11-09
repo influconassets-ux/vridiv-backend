@@ -1,0 +1,561 @@
+.container {
+  padding: 3vw 2vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.searchWrapper {
+  display: flex;
+  width: 27vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vw;
+  border-radius: 3vw;
+  background: #fff;
+  box-shadow: 0px 0.2vw 0.2vw 0px rgba(0, 0, 0, 0.25);
+}
+
+.searchLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+}
+
+.searchIcon {
+  width: 2vw;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #fff;
+
+  color: var(--viridiv-com-heather, var(--color-azure-76, #b8c0cc));
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+.filterArrow {
+  width: 2.5vw;
+}
+
+.header {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 0vw;
+  margin-bottom: 3vw;
+}
+
+/* ---topRows--- */
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+}
+.topRows {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+
+  gap: 6vw;
+}
+
+.row1Content,
+.botRowHeader {
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2.7vw;
+}
+
+.row1Content span {
+  font-weight: 700;
+}
+
+.dwnImage {
+  width: 3vw;
+}
+
+/* --botRow-- */
+.botRowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}
+.botRow {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.botRowRight {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.fileImage {
+  width: 3vw;
+  cursor: pointer;
+}
+
+.botRow button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6vw;
+  color: #023602;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+  border-radius: 1vw;
+  background: #bfff00;
+  padding: 1.4vw 2vw;
+  padding-right: 2.3vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dwnImage {
+  width: 3.5vw;
+}
+
+.statusBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.statusBtn {
+  margin-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  border-radius: 1.5vw;
+  background: #023602;
+  padding: 1.2vw 3vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.dwnWhiteArw {
+  width: 5vw;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  /* ---topRows--- */
+  .contentContainer {
+    gap: 5vw;
+  }
+  .topRows {
+    gap: 3vw;
+  }
+
+  .row1 {
+    gap: 8vw;
+  }
+
+  .row1Content,
+  .botRowHeader {
+    font-size: 2.3vw;
+  }
+
+  .dwnImage {
+    width: 3vw;
+  }
+
+  /* --botRow-- */
+  .botRowContainer {
+    gap: 6vw;
+  }
+  .botRow {
+    gap: 2vw;
+  }
+  .botRowRight {
+    gap: 2vw;
+  }
+
+  .fileImage {
+    width: 2.5vw;
+  }
+
+  .botRow button {
+    gap: 0.6vw;
+    font-size: 2.3vw;
+    border-radius: 1vw;
+    padding: 1.4vw 2vw;
+    padding-right: 2.6vw;
+  }
+
+  .dwnImage {
+    width: 3.5vw;
+  }
+
+  .statusBtn {
+    margin-top: 5vw;
+    font-size: 2.2vw;
+    border-radius: 1.5vw;
+    padding: 1.2vw 3vw;
+  }
+  .dwnWhiteArw {
+    width: 4.5vw;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .searchWrapper {
+    display: flex;
+    width: 24vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw;
+    border-radius: 3vw;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .searchLeft {
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.7vw;
+  }
+
+  .searchInput {
+    font-size: 1.7vw;
+  }
+
+  .filterArrow {
+    width: 2.2vw;
+  }
+
+  /* ---topRows--- */
+  .contentContainer {
+    gap: 5vw;
+  }
+  .topRows {
+    gap: 3vw;
+  }
+
+  .row1 {
+    gap: 8vw;
+  }
+
+  .row1Content,
+  .botRowHeader {
+    font-size: 1.8vw;
+  }
+
+  .dwnImage {
+    width: 3vw;
+  }
+
+  /* --botRow-- */
+  .botRowContainer {
+    gap: 6vw;
+  }
+  .botRow {
+    gap: 2vw;
+  }
+  .botRowRight {
+    gap: 2vw;
+  }
+
+  .fileImage {
+    width: 2.5vw;
+  }
+
+  .botRow button {
+    gap: 0.6vw;
+    font-size: 1.8vw;
+    border-radius: 1vw;
+    padding: 1.1vw 1.8vw;
+    padding-right: 2vw;
+  }
+
+  .dwnImage {
+    width: 3.5vw;
+  }
+  .statusBtn {
+    margin-top: 7vw;
+    font-size: 2vw;
+    border-radius: 1.2vw;
+    padding: 1.2vw 2.3vw;
+  }
+  .dwnWhiteArw {
+    width: 4vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .searchWrapper {
+    width: 22vw;
+  }
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.4vw;
+  }
+
+  .searchInput {
+    font-size: 1.4vw;
+  }
+  /* ---topRows--- */
+  .contentContainer {
+    gap: 5vw;
+  }
+  .topRows {
+    gap: 3vw;
+  }
+
+  .row1 {
+    gap: 8vw;
+  }
+
+  .row1Content,
+  .botRowHeader {
+    font-size: 1.5vw;
+  }
+
+  .dwnImage {
+    width: 3vw;
+  }
+
+  /* --botRow-- */
+  .botRowContainer {
+    gap: 6vw;
+  }
+  .botRow {
+    gap: 2vw;
+  }
+  .botRowRight {
+    gap: 2vw;
+  }
+
+  .fileImage {
+    width: 2.4vw;
+  }
+
+  .botRow button {
+    gap: 0.6vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    padding: 1.1vw 1.8vw;
+    padding-right: 2vw;
+  }
+
+  .dwnImage {
+    width: 2.8vw;
+  }
+  .statusBtn {
+    margin-top: 7vw;
+    font-size: 1.7vw;
+    border-radius: 1.2vw;
+    padding: 0.9vw 2vw;
+    padding-right: 1.2vw;
+  }
+  .dwnWhiteArw {
+    width: 3.2vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .searchWrapper {
+    width: 22vw;
+  }
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.4vw;
+  }
+
+  .searchInput {
+    font-size: 1.4vw;
+  }
+
+  .header {
+    font-size: 2.6vw;
+  }
+  /* ---topRows--- */
+  .contentContainer {
+    gap: 4vw;
+  }
+  .topRows {
+    gap: 3vw;
+  }
+
+  .row1 {
+    gap: 8vw;
+  }
+
+  .row1Content,
+  .botRowHeader {
+    font-size: 1.3vw;
+  }
+
+  .dwnImage {
+    width: 3vw;
+  }
+
+  /* --botRow-- */
+  .botRowContainer {
+    gap: 5vw;
+  }
+  .botRow {
+    gap: 2vw;
+  }
+  .botRowRight {
+    gap: 2vw;
+  }
+
+  .fileImage {
+    width: 2.4vw;
+  }
+
+  .botRow button {
+    gap: 0.6vw;
+    font-size: 1.3vw;
+    border-radius: 0.7vw;
+    padding: 0.8vw 1.5vw;
+    padding-right: 1.7vw;
+  }
+
+  .dwnImage {
+    width: 2.5vw;
+  }
+  .statusBtn {
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    border-radius: 1.2vw;
+    padding: 0.9vw 1.8vw;
+    padding-right: 1vw;
+  }
+  .dwnWhiteArw {
+    width: 2.8vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .searchWrapper {
+    width: 20vw;
+  }
+
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.2vw;
+  }
+
+  .searchInput {
+    font-size: 1.2vw;
+  }
+
+  .header {
+    font-size: 2.2vw;
+  }
+
+  /* ---topRows--- */
+  .contentContainer {
+    gap: 4vw;
+  }
+  .topRows {
+    gap: 3vw;
+  }
+
+  .row1 {
+    gap: 8vw;
+  }
+
+  .row1Content,
+  .botRowHeader {
+    font-size: 1.2vw;
+  }
+
+  .dwnImage {
+    width: 3vw;
+  }
+
+  /* --botRow-- */
+  .botRowContainer {
+    gap: 5vw;
+  }
+  .botRow {
+    gap: 1.5vw;
+  }
+  .botRowRight {
+    gap: 1.3vw;
+  }
+
+  .fileImage {
+    width: 2.1vw;
+  }
+
+  .botRow button {
+    gap: 0.6vw;
+    font-size: 1.2vw;
+    border-radius: 0.7vw;
+    padding: 0.8vw 1.2vw;
+    padding-right: 1.7vw;
+  }
+
+  .dwnImage {
+    width: 2.2vw;
+  }
+
+  .statusBtn {
+    margin-top: 4vw;
+    font-size: 1.2vw;
+    border-radius: 0.8vw;
+    padding: 0.6vw 1.4vw;
+    padding-right: 1vw;
+  }
+  .dwnWhiteArw {
+    width: 2.2vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

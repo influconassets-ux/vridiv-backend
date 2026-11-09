@@ -1,0 +1,520 @@
+.container {
+  display: flex;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding: 1.4vw 0;
+}
+
+.leftImage {
+  width: 12vw;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(
+    --Navbar-gradient,
+    linear-gradient(90deg, #fff 10.4%, #f59d25 60.9%, #cc1894 100%)
+  );
+  width: 80%;
+  padding: 1.4vw 0;
+  padding-right: 1vw;
+}
+.arrowImage {
+  width: 4vw;
+}
+
+.serachContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 4vw;
+  border: 0.6px solid #d5d5d5;
+  background: #f5f6fa;
+  padding: 0.9vw;
+  gap: 0.3vw;
+  width: 28vw;
+}
+.searchIcon {
+  width: 2.5vw;
+}
+.searchInput {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.3vw;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.7vw;
+}
+.bellContainer {
+  position: relative;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.notContainer {
+  position: absolute;
+  right: 0;
+
+  width: 20vw;
+  height: fit-content;
+  max-height: 40vh;
+  background-color: white;
+  z-index: 3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+}
+.notWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.timeWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7vw;
+}
+.notCard {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  padding: 1vw;
+  padding-bottom: 0.5vw;
+  border-bottom: 1px solid rgb(205, 196, 196);
+  cursor: pointer;
+}
+.notCard.unread {
+  background-color: rgb(224, 237, 224);
+}
+.notCard.read {
+  background-color: white;
+}
+.notItem {
+  text-decoration: none;
+  color: #002600;
+  margin-bottom: 0.6vw;
+}
+.notCard:hover {
+  background-color: rgb(210, 214, 210);
+}
+
+.notContainer::-webkit-scrollbar {
+  width: 4px; /* You can reduce this as much as you want */
+}
+
+.notContainer::-webkit-scrollbar-track {
+  background: transparent; /* Optional: makes the track invisible */
+}
+
+.notContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Scroll thumb color */
+  border-radius: 10px;
+}
+.bell {
+  width: 2.5vw;
+}
+.notCount {
+  position: absolute;
+  top: -0.2vw;
+  right: -1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.3vw;
+  width: 2.3vw;
+  background-color: #ffc250;
+  color: #002600;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  border-radius: 50%;
+}
+
+.dp {
+  width: 5vw;
+  height: 5vw;
+  background-color: rgb(162, 190, 249);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.char {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 1.5vw;
+}
+.username {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.usertype {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.7vw;
+}
+.proArrow {
+  width: 3.7vw;
+  margin-left: 0.8vw;
+}
+
+.midContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.plusImage {
+  width: 2vw;
+}
+.midHeader {
+  color: #023602;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3vw;
+}
+.downloadUsers {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3vw;
+  cursor: pointer;
+  position: relative;
+}
+.menubar {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 2.6vw;
+  z-index: 5;
+  color: black;
+  border-radius: 0.4vw;
+  padding: 0.5vw 1vw;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6vw;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  text-wrap: nowrap;
+  gap: 0.4vw;
+  font-size: 0.9vw;
+  padding: 2px 4px;
+  border-radius: 0.3vw;
+  color: black;
+  font-weight: 400;
+}
+.menuItem:hover {
+  background-color: lightblue;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .notCount {
+    top: -1vw;
+    right: -0.8vw;
+    height: 2.3vw;
+    width: 2.3vw;
+    font-size: 1.5vw;
+  }
+  .midContainer {
+    gap: 1.5vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .left {
+    width: 22%;
+    padding: 2vw 0;
+  }
+
+  .leftImage {
+    width: 12vw;
+  }
+
+  .right {
+    background: var(
+      --Navbar-gradient,
+      linear-gradient(90deg, #fff 10.4%, #f59d25 60.9%, #cc1894 100%)
+    );
+    width: 78%;
+    padding: 2vw 0;
+    padding-right: 1vw;
+  }
+
+  .arrowImage {
+    width: 3.5vw;
+  }
+
+  .serachContainer {
+    border-radius: 4vw;
+    border: 0.6px solid #d5d5d5;
+    background: #f5f6fa;
+    padding: 0.9vw;
+    gap: 0.3vw;
+    width: 20vw;
+  }
+  .searchIcon {
+    width: 1.5vw;
+  }
+  .searchInput {
+    font-size: 1.5vw;
+  }
+
+  .profileContainer {
+    gap: 0.7vw;
+  }
+  .bellContainer {
+    margin-right: 1vw;
+  }
+
+  .bell {
+    width: 2vw;
+  }
+  .notCount {
+    top: -0.7vw;
+    right: -0.7vw;
+    height: 1.8vw;
+    width: 1.8vw;
+    font-size: 1.1vw;
+  }
+
+  .dp {
+    width: 3.5vw;
+    height: 3.5vw;
+
+    border-radius: 50%;
+  }
+  .username {
+    font-size: 1.5vw;
+  }
+
+  .usertype {
+    font-size: 1.2vw;
+  }
+  .proArrow {
+    width: 3vw;
+    margin-left: 0.8vw;
+  }
+  .plusImage {
+    width: 2.4vw;
+  }
+  .midHeader {
+    font-size: 1.6vw;
+    gap: 0.3vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    height: 6.5vw;
+  }
+  .left {
+    /* width: 25%; */
+    padding: 2vw 0;
+  }
+
+  .leftImage {
+    width: 12vw;
+  }
+
+  .right {
+    background: var(
+      --Navbar-gradient,
+      linear-gradient(90deg, #fff 10.4%, #f59d25 60.9%, #cc1894 100%)
+    );
+    /* width: 75%; */
+    padding: 2vw 0;
+    padding-right: 1vw;
+  }
+
+  .arrowImage {
+    width: 3.2vw;
+  }
+
+  .serachContainer {
+    border-radius: 4vw;
+    border: 0.6px solid #d5d5d5;
+
+    padding: 0.9vw;
+    gap: 0.3vw;
+    width: 20vw;
+  }
+  .searchIcon {
+    width: 1.5vw;
+  }
+  .searchInput {
+    font-size: 1.5vw;
+  }
+
+  .profileContainer {
+    gap: 0.7vw;
+  }
+  .bellContainer {
+    margin-right: 1vw;
+  }
+
+  .bell {
+    width: 2vw;
+  }
+  .notCount {
+    top: -0.5vw;
+    right: -0.4vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    font-size: 1.1vw;
+  }
+
+  .username {
+    font-size: 1.5vw;
+  }
+
+  .usertype {
+    font-size: 1.2vw;
+  }
+  .proArrow {
+    width: 3vw;
+    margin-left: 0.8vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .char {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.3vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    height: 6.2vw;
+  }
+  .left {
+    width: 25%;
+    padding: 1vw 0;
+  }
+
+  .right {
+    background: var(
+      --Navbar-gradient,
+      linear-gradient(90deg, #fff 14.4%, #f59d25 40.9%, #cc1894 100%)
+    );
+    width: 75%;
+    padding: 1vw 0;
+    padding-right: 1vw;
+  }
+
+  .arrowImage {
+    width: 2.7vw;
+  }
+
+  .serachContainer {
+    border-radius: 4vw;
+    border: 0.6px solid #d5d5d5;
+
+    padding: 0.9vw;
+    gap: 0.3vw;
+    width: 25vw;
+  }
+  .searchIcon {
+    width: 1.5vw;
+  }
+  .searchInput {
+    font-size: 1.3vw;
+  }
+
+  .profileContainer {
+    gap: 0.7vw;
+  }
+  .bellContainer {
+    margin-right: 1vw;
+  }
+
+  .bell {
+    width: 1.7vw;
+  }
+  .notCount {
+    top: -0.5vw;
+    right: -0.3vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    font-size: 1vw;
+  }
+
+  .dp {
+    width: 3.2vw;
+    height: 3.2vw;
+
+    border-radius: 50%;
+  }
+  .username {
+    font-size: 1.2vw;
+  }
+
+  .usertype {
+    font-size: 1vw;
+  }
+  .proArrow {
+    width: 2.2vw;
+    margin-left: 0.8vw;
+  }
+  .plusImage {
+    width: 2.4vw;
+  }
+  .midHeader {
+    font-size: 1.2vw;
+    gap: 0.3vw;
+  }
+  .downloadUsers {
+    font-size: 2vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

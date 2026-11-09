@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  display: none;
+}
+.right {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 3vw;
+}
+.absIconsContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vw;
+}
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6vw;
+  color: #949001;
+  cursor: pointer;
+}
+.backIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6vw;
+  color: #949001;
+  cursor: pointer;
+}
+.cText {
+  text-align: center;
+  font-family: "Dubai", sans-serif;
+  font-weight: 400;
+  font-size: 8vw;
+  text-align: center;
+  background: linear-gradient(180deg, #f5f5c9 0%, #949001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  line-height: 1;
+}
+.cTextLeft {
+  text-align: center;
+  font-family: "Dubai", sans-serif;
+  font-weight: 400;
+  font-size: 8vw;
+  text-align: center;
+  background: linear-gradient(180deg, #f5f5c9 0%, #949001 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.leftImage {
+  width: 10vw;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .logoutBtn {
+    font-size: 3.4vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .right {
+    width: 50%;
+  }
+  .backIcon {
+    font-size: 4vw;
+    color: #949001;
+  }
+  .left {
+    width: 50%;
+    display: block;
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url("/images/signUpImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cText {
+    display: none;
+  }
+  .logoutBtn {
+    font-size: 3vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .backIcon {
+    font-size: 2.9vw;
+  }
+  .logoutBtn {
+    font-size: 1.8vw;
+  }
+  .topContainer {
+    margin-top: 2.2vw;
+  }
+  .leftImage {
+    width: 20vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

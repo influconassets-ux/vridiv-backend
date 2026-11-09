@@ -1,0 +1,90 @@
+.container {
+  background-color: rgb(239, 239, 130);
+  color: black;
+  padding: 1vw;
+  border-radius: 0.7vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+.text {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  color: black;
+  gap: 0.2vw;
+  width: 50%;
+}
+.process {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  color: black;
+  gap: 0.2vw;
+  text-wrap: nowrap;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #a4ceef;
+  color: rgb(11, 11, 160);
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  border-radius: 0.3vw;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding: 0.5vw;
+  }
+  .text {
+    font-size: 0.8vw;
+  }
+  .process {
+    font-size: 0.7vw;
+  }
+  .btn {
+    padding: 0.4vw 0.2vw;
+    border-radius: 0.3vw;
+    font-size: 0.7vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,325 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 7vh;
+}
+.wrapper {
+  width: 60%;
+}
+.header {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6vw;
+  text-align: center;
+  margin-bottom: 6vw;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  margin-bottom: 4vw;
+}
+.inputLable {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+
+.inputField {
+  border-radius: 1.5vw;
+  background: #f5f5c9;
+  color: #979797;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  padding: 2vw;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.inputField:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Ensures no border appears */
+}
+
+.btn {
+  width: 100%;
+  border-radius: 1.5vw;
+  border: 1px solid #f5f5c9;
+  background: #002600;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 2.7vw;
+  padding: 1.7vw;
+  padding-bottom: 2vw;
+  margin-top: 4vw;
+  cursor: pointer;
+}
+.googleContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 1vw;
+  border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+  background: var(--Surface-1, #fff);
+  padding: 1.8vw 0;
+  cursor: pointer;
+  margin-top: 5vw;
+}
+.gText {
+  color: var(--Text-Primary, #2e2e2e);
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 2.7vw;
+}
+.gImage {
+  width: 3vw;
+  left: 7%;
+  position: absolute;
+}
+.aggCheckLabel {
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  gap: 0.3vw;
+  color: #002600;
+  font-family: "Inter", sans-serif;
+}
+.aggCheck {
+  width: 3vw;
+  margin-right: 0.7vw;
+}
+.aggCheckLabel a {
+  font-weight: 700;
+  color: #002600;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  .aggCheckLabel {
+    font-size: 1.7vw;
+    gap: 0.3vw;
+  }
+  .aggCheck {
+    width: 2.5vw;
+    margin-right: 0.7vw;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 7vh;
+  }
+  .wrapper {
+    width: 60%;
+  }
+  .header {
+    font-size: 3vw;
+    margin-bottom: 6vw;
+  }
+
+  .inputContainer {
+    gap: 0.5vw;
+    margin-bottom: 4vw;
+  }
+  .inputLable {
+    font-size: 1.5vw;
+  }
+
+  .inputField {
+    border-radius: 0.8vw;
+    font-size: 1.6vw;
+    padding: 1.4vw;
+  }
+
+  .btn {
+    border-radius: 1.5vw;
+    font-size: 1.4vw;
+    padding: 1.7vw;
+    padding-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  .googleContainer {
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.8vw 0;
+  }
+  .gText {
+    font-size: 1.5vw;
+  }
+  .gImage {
+    width: 2vw;
+    left: 7%;
+  }
+  .aggCheckLabel {
+    font-size: 1vw;
+    gap: 0.2vw;
+    margin-top: -2vw;
+  }
+  .aggCheck {
+    width: 1.4vw;
+    margin-right: 0.4vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    padding-top: 7vh;
+  }
+  .wrapper {
+    width: 60%;
+  }
+  .header {
+    font-size: 2.6vw;
+    margin-bottom: 6vw;
+  }
+
+  .inputContainer {
+    gap: 0.5vw;
+    margin-bottom: 4vw;
+  }
+  .inputLable {
+    font-size: 1.2vw;
+  }
+
+  .inputField {
+    border-radius: 0.8vw;
+    font-size: 1.3vw;
+    padding: 1.1vw 1.4vw;
+  }
+
+  .btn {
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    padding: 1.2vw;
+    padding-bottom: 1.4vw;
+    margin-top: 2vw;
+  }
+  .googleContainer {
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.8vw 0;
+  }
+  .gText {
+    font-size: 1.6vw;
+  }
+  .gImage {
+    width: 2vw;
+    left: 7%;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding-top: 7vh;
+  }
+  .wrapper {
+    width: 60%;
+  }
+  .header {
+    font-size: 2.6vw;
+    margin-bottom: 5vw;
+  }
+
+  .inputContainer {
+    gap: 0.5vw;
+    margin-bottom: 2.5vw;
+  }
+  .inputLable {
+    font-size: 1.1vw;
+  }
+
+  .inputField {
+    border-radius: 0.8vw;
+    font-size: 1.1vw;
+    padding: 1.1vw 1.4vw;
+  }
+
+  .btn {
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    padding: 1.2vw;
+    padding-bottom: 1.4vw;
+    margin-top: 2vw;
+  }
+  .googleContainer {
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.2vw 0;
+  }
+  .gText {
+    font-size: 1.6vw;
+  }
+  .gImage {
+    width: 1.7vw;
+    left: 7%;
+  }
+  .aggCheckLabel {
+    font-size: 0.8vw;
+    gap: 0.2vw;
+    margin-top: -1vw;
+  }
+  .aggCheck {
+    width: 1.1vw;
+    margin-right: 0.4vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .btn {
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    padding: 1.2vw;
+    margin-top: 0vw;
+  }
+  .googleContainer {
+    margin-top: 3vw;
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.2vw 0;
+  }
+  .gText {
+    font-size: 1.3vw;
+  }
+  .gImage {
+    width: 1.7vw;
+    left: 7%;
+  }
+  .aggCheckLabel {
+    font-size: 0.8vw;
+    gap: 0.2vw;
+    margin-top: -1vw;
+    margin-bottom: 2vw;
+  }
+  .aggCheck {
+    width: 1.1vw;
+    margin-right: 0.4vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

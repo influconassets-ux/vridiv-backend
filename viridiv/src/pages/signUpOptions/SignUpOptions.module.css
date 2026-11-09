@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vw;
+  gap: 15vw;
+  padding-bottom: 2vw;
+  height: 70vh;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7vw;
+  background: #f5f5c9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 32vw;
+  height: 32vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.addImage {
+  width: 7vw;
+}
+
+.content {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 3.3vw;
+  text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    padding-top: 13vw;
+    gap: 12vw;
+    padding-bottom: 2vw;
+  }
+  .circle {
+    gap: 0.7vw;
+    background: #f5f5c9;
+
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .addImage {
+    width: 6vw;
+  }
+
+  .content {
+    font-size: 2.7vw;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    padding-top: 11vw;
+    gap: 12vw;
+    padding-bottom: 2vw;
+  }
+  .circle {
+    gap: 0.7vw;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+  }
+  .addImage {
+    width: 5.5vw;
+  }
+
+  .content {
+    font-size: 2.3vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 11vw;
+    gap: 9vw;
+    padding-bottom: 2vw;
+  }
+  .circle {
+    gap: 0.7vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
+  .addImage {
+    width: 4vw;
+  }
+
+  .content {
+    font-size: 1.8vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding-top: 11vw;
+    gap: 9vw;
+    padding-bottom: 2vw;
+  }
+  .circle {
+    gap: 0.7vw;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+  }
+  .addImage {
+    width: 3vw;
+  }
+
+  .content {
+    font-size: 1.4vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding-top: 0;
+    gap: 9vw;
+    padding-bottom: 0vw;
+    height: 92.5vh;
+  }
+  .circle {
+    gap: 0.7vw;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+  }
+  .addImage {
+    width: 2.5vw;
+  }
+
+  .content {
+    font-size: 1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

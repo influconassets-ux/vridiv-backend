@@ -1,0 +1,127 @@
+.container {
+  border-radius: 2vw;
+  background: #f5f5c9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 2vw;
+}
+.header {
+  opacity: 0.7;
+  color: #023602;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+}
+.botContainer {
+  margin-top: 3vw;
+}
+.lot {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.7vw;
+}
+.botLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pathImage {
+  width: 3vw;
+}
+.startingPrice {
+  color: #1c4b72;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.3vw;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.botContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.botRightImage {
+  width: 7.5vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    border-radius: 1.8vw;
+    padding: 2vw;
+  }
+  .header {
+    font-size: 1.4vw;
+  }
+  .botContainer {
+    margin-top: 2.3vw;
+  }
+  .lot {
+    font-size: 2vw;
+  }
+
+  .pathImage {
+    width: 2.4vw;
+  }
+  .startingPrice {
+    font-size: 1.9vw;
+    gap: 0.5vw;
+  }
+
+  .botRightImage {
+    width: 6vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    border-radius: 1.4vw;
+    padding: 1.5vw;
+  }
+  .header {
+    font-size: 0.9vw;
+  }
+  .botContainer {
+    margin-top: 1vw;
+  }
+  .lot {
+    font-size: 1.1vw;
+  }
+
+  .pathImage {
+    width: 1.4vw;
+  }
+  .startingPrice {
+    font-size: 0.9vw;
+    gap: 0.5vw;
+  }
+
+  .botRightImage {
+    width: 4vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

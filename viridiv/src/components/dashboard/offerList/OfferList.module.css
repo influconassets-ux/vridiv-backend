@@ -1,0 +1,405 @@
+.container {
+  padding: 2vw;
+  position: relative;
+}
+.sidebarContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 300ms ease;
+  /* left: 0; */
+}
+.blackBg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2022246a;
+}
+.raisePriceContainer {
+  position: fixed;
+  top: 30vh;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  transition: all 100ms ease;
+}
+.raisePriceContainer.show {
+  left: 0;
+}
+.raisePriceContainer.hide {
+  left: 100%;
+}
+.sidebarContainer.show {
+  left: 0;
+}
+.sidebarContainer.hide {
+  left: -100%;
+}
+.menuIcon {
+  font-size: 3vw;
+  width: fit-content;
+}
+.offHeaderContainer {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.lotsTxt {
+  color: #202224;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 4.2vw;
+}
+.putPrice {
+  color: #fff;
+  font-family: "Nunito Sans";
+  font-size: 2vw;
+  font-weight: 700;
+  border-radius: 3vw;
+  /* background: #979797; */
+  padding: 1.7vw;
+  cursor: pointer;
+}
+.offerListName {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.4vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.offerListName span {
+  font-weight: 700;
+}
+.headerRow {
+  margin-bottom: 1vw;
+}
+.contentRow {
+  margin-bottom: 1vw;
+}
+.headerRow,
+.contentRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.tableContainer {
+  width: 100%;
+}
+.checkInput {
+  width: 2.5%;
+  color: blue;
+}
+.medRow {
+  width: 8.5%;
+}
+
+.smallRow {
+  width: 7%;
+}
+.bigRow,
+.statusBtn {
+  width: 11%;
+}
+.statusBtn {
+  background: #bfff00;
+  border-radius: 2vw;
+  color: #202224;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  padding: 0.7vw 0.1vw;
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerRow h3 {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.9vw;
+  text-align: center;
+}
+.contentRow h3 {
+  color: #202224;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.awBid {
+  width: 1vw;
+}
+.mainSidebar {
+  display: none;
+}
+.similarWrapper {
+  margin-top: 4vw;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    display: flex;
+  }
+  .wrapper {
+    width: 80%;
+    padding-left: 1vw;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .sidebarContainer {
+    display: none;
+  }
+  .mainSidebar {
+    width: 20%;
+    display: block;
+  }
+
+  .offHeaderContainer {
+    gap: 1vw;
+  }
+  .lotsTxt {
+    font-size: 2.8vw;
+  }
+  .putPrice {
+    font-size: 1.6vw;
+    padding: 1vw;
+  }
+  .offerListName {
+    font-size: 1.9vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .checkInput {
+    width: 2.5%;
+  }
+  .medRow {
+    width: 9.5%;
+  }
+
+  .smallRow {
+    width: 7%;
+  }
+  .bigRow,
+  .statusBtn {
+    width: 10.5%;
+  }
+  .statusBtn {
+    background: #bfff00;
+    border-radius: 1vw;
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    padding: 0.7vw 0.1vw;
+    font-size: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.3vw;
+  }
+  .contentRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 1vw;
+  }
+  .awBid {
+    width: 1vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    padding-left: 0;
+    display: flex;
+  }
+  .wrapper {
+    width: 75%;
+    padding-left: 1vw;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .sidebarContainer {
+    display: none;
+  }
+  .mainSidebar {
+    width: 25%;
+  }
+
+  .offHeaderContainer {
+    gap: 1vw;
+  }
+  .lotsTxt {
+    font-size: 3.5vw;
+  }
+  .putPrice {
+    font-size: 1.8vw;
+    padding: 1.4vw;
+  }
+  .offerListName {
+    font-size: 1.9vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .checkInput {
+    width: 2.5%;
+  }
+  .medRow {
+    width: 10.5%;
+  }
+
+  .smallRow {
+    width: 8%;
+  }
+  .bigRow,
+  .statusBtn {
+    width: 12%;
+  }
+  .statusBtn {
+    background: #bfff00;
+    border-radius: 1vw;
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    padding: 0.7vw 0.1vw;
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.3vw;
+  }
+  .contentRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 1vw;
+  }
+  .awBid {
+    width: 1vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding-left: 0;
+    display: flex;
+  }
+  .wrapper {
+    width: 85%;
+    padding-left: 2vw;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .sidebarContainer {
+    display: none;
+  }
+  .mainSidebar {
+    width: 20%;
+  }
+
+  .offHeaderContainer {
+    gap: 1vw;
+  }
+  .lotsTxt {
+    font-size: 1.8vw;
+  }
+  .putPrice {
+    font-size: 1vw;
+    padding: 0.5vw;
+    border-radius: 0.3vw;
+  }
+  .offerListName {
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+  }
+
+  .checkInput {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+  .medRow {
+    width: 10.5%;
+  }
+
+  .smallRow {
+    width: 8%;
+  }
+  .bigRow,
+  .statusBtn {
+    width: 12%;
+  }
+  .statusBtn {
+    background: #bfff00;
+    border-radius: 1vw;
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    padding: 0.5vw 0.2vw;
+    font-size: 0.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2vw;
+  }
+
+  .headerRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+  }
+  .contentRow h3 {
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 1vw;
+  }
+  .awBid {
+    width: 1.2vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,504 @@
+.container {
+  width: 70%;
+  border: 0.5px solid #002600;
+  height: fit-content;
+  border-radius: 3vw;
+  background: #f5f5c9;
+  padding-bottom: 4vw;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.topContainer {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  /* padding: 2vw 0 1vw; */
+  padding: 2.5vw;
+}
+.topHeader {
+  color: #023602;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+}
+.closeIcon {
+  position: absolute;
+  right: 2vw;
+  top: 19%;
+  width: 5vw;
+  cursor: pointer;
+}
+
+.formheaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  padding-top: 2.6vw;
+  margin-bottom: 2.5vw;
+}
+.formheader {
+  color: #000;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+}
+.formLogo {
+  width: 10vw;
+}
+
+.formContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 72%;
+}
+.inputLabel {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.7vw;
+  width: 100%;
+}
+
+.inputField {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6vw;
+  border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+  background: rgba(148, 144, 1, 0.13);
+  padding: 1vw;
+  border-radius: 1vw;
+}
+
+.submitBtn {
+  width: 72%;
+  color: #f5f5c9;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1.5vw;
+  border: 0.6px solid #2e2e2e;
+  background: #002600;
+  outline: none;
+  font-size: 2.7vw;
+  padding: 1.3vw;
+}
+
+.userTypeContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2vw;
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6vw;
+}
+.userTypeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+}
+
+.orContainer {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.orLine {
+  height: 0.3px;
+  background-color: black;
+  width: 45%;
+}
+.radioBtnLabel {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+}
+.orText {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+}
+.googleContainer {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 1vw;
+  border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+  background: var(--Surface-1, #fff);
+  padding: 1.8vw 0;
+  cursor: pointer;
+}
+.gText {
+  color: var(--Text-Primary, #2e2e2e);
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 2.7vw;
+}
+.gImage {
+  width: 3vw;
+  left: 7%;
+  position: absolute;
+}
+.fbBtn {
+  width: 10vw;
+  height: 10vw;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .topHeader {
+    font-weight: 400;
+    font-size: 2.3vw;
+  }
+  .closeIcon {
+    right: 2vw;
+    top: 27%;
+    width: 3.5vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.5vw;
+    padding-top: 2.6vw;
+    margin-bottom: 2.5vw;
+  }
+  .formheader {
+    font-size: 3.4vw;
+  }
+  .formLogo {
+    width: 11vw;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+  }
+
+  .inputLabel {
+    font-size: 2.3vw;
+  }
+
+  .inputField {
+    width: 100%;
+    border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+    font-size: 2.1vw;
+  }
+
+  .submitBtn {
+    width: 72%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 2.3vw;
+    padding: 1.8vw;
+    padding-top: 1.6vw;
+  }
+  .userTypeWrapper {
+    gap: 0.6vw;
+  }
+  .radioBtnLabel {
+    font-size: 1.6vw;
+  }
+  .orText {
+    font-size: 2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .inputLabel {
+    font-size: 2.3vw;
+  }
+
+  .inputField {
+    width: 100%;
+    border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+    font-size: 2.1vw;
+  }
+
+  .submitBtn {
+    width: 72%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 2.3vw;
+    padding: 1.8vw;
+    padding-top: 1.6vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    width: 55%;
+    border: 1px solid #002600;
+    border-radius: 3vw;
+    padding-bottom: 4vw;
+  }
+
+  .topHeader {
+    font-weight: 400;
+    font-size: 1.8vw;
+  }
+  .closeIcon {
+    right: 2vw;
+    top: 27%;
+    width: 3vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.5vw;
+    padding-top: 2.6vw;
+    margin-bottom: 1vw;
+  }
+  .formheader {
+    font-size: 3.4vw;
+  }
+  .formLogo {
+    width: 11vw;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .inputWrapper {
+    width: 70%;
+  }
+  .inputLabel {
+    font-size: 1.7vw;
+  }
+
+  .inputField {
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+    font-size: 1.6vw;
+  }
+
+  .submitBtn {
+    width: 70%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 1.7vw;
+    padding: 1.8vw;
+    padding-top: 1.6vw;
+  }
+
+  .orContainer {
+    width: 70%;
+  }
+  .orLine {
+    height: 0.5px;
+  }
+
+  .googleContainer {
+    width: 70%;
+
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.8vw 0;
+  }
+  .gText {
+    font-size: 2vw;
+  }
+  .gImage {
+    width: 2vw;
+    left: 7%;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 55%;
+    border: 1px solid #002600;
+    border-radius: 3vw;
+    padding-bottom: 4vw;
+  }
+  .topContainer {
+    padding: 2vw;
+  }
+
+  .topHeader {
+    font-size: 1.3vw;
+  }
+  .closeIcon {
+    right: 2vw;
+    top: 34%;
+    width: 2vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.3vw;
+    padding-top: 1.5vw;
+    margin-bottom: 1vw;
+  }
+  .formheader {
+    font-size: 3vw;
+  }
+  .formLogo {
+    width: 8vw;
+  }
+
+  .formContainer {
+    gap: 1.2vw;
+  }
+  .inputWrapper {
+    width: 70%;
+    gap: 0.6vw;
+  }
+  .inputLabel {
+    font-size: 1.4vw;
+  }
+
+  .inputField {
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+    font-size: 1.2vw;
+  }
+
+  .submitBtn {
+    width: 70%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 1.7vw;
+    padding: 1.8vw;
+    padding-top: 1.6vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 35%;
+    border: 1px solid #002600;
+    border-radius: 3vw;
+    padding-bottom: 4vw;
+  }
+  .topContainer {
+    padding: 1.4vw;
+  }
+
+  .topHeader {
+    font-size: 1.3vw;
+  }
+  .closeIcon {
+    right: 2vw;
+    top: 28%;
+    width: 2vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.3vw;
+    padding-top: 1.5vw;
+    margin-bottom: 1vw;
+  }
+  .formheader {
+    font-size: 2.2vw;
+  }
+  .formLogo {
+    width: 5.8vw;
+  }
+
+  .formContainer {
+    gap: 1.2vw;
+  }
+  .inputWrapper {
+    width: 75%;
+    gap: 0.3vw;
+  }
+  .inputLabel {
+    font-size: 1.2vw;
+  }
+
+  .inputField {
+    padding: 1.2vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+  }
+
+  .submitBtn {
+    width: 75%;
+    border-radius: 1vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 1.4vw;
+    padding: 1.2vw;
+    padding-top: 1vw;
+  }
+  .userTypeContainer {
+    font-size: 0.9vw;
+  }
+  .radioBtnLabel {
+    font-size: 1vw;
+  }
+  .orText {
+    font-size: 1.2vw;
+  }
+  .orContainer {
+    width: 75%;
+  }
+  .orLine {
+    height: 0.5px;
+  }
+
+  .googleContainer {
+    width: 75%;
+
+    border-radius: 0.7vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    background: var(--Surface-1, #fff);
+    padding: 1.2vw 0;
+  }
+  .gText {
+    font-size: 1.5vw;
+  }
+  .gImage {
+    width: 1.4vw;
+    left: 7%;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

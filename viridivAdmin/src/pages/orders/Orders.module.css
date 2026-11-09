@@ -1,0 +1,347 @@
+.container {
+  padding: 3vw 2vw;
+}
+.searchWrapper {
+  display: flex;
+  width: 27vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vw;
+  border-radius: 3vw;
+  background: #fff;
+  box-shadow: 0px 0.2vw 0.2vw 0px rgba(0, 0, 0, 0.25);
+}
+
+.searchLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+}
+
+.searchIcon {
+  width: 2vw;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #fff;
+
+  color: var(--viridiv-com-heather, var(--color-azure-76, #b8c0cc));
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+.filterArrow {
+  width: 2.5vw;
+}
+
+.header {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.headerRow,
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  /* align-items: center; */
+}
+
+.checkInput {
+  width: 2%;
+}
+.imgHeader,
+.eyeImageWrapper {
+  width: 2%;
+}
+.eyeImage {
+  width: 100%;
+}
+.eyeImage {
+  cursor: pointer;
+}
+.tHeader {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  gap: 0.2vw;
+}
+.filterArwImage {
+  width: 1.3vw;
+  cursor: pointer;
+}
+
+.tContent {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1vw;
+  width: 12%;
+}
+.awBid {
+  width: 1.6vw;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  .header {
+    font-size: 3vw;
+    margin-top: 3vw;
+  }
+
+  .checkInput {
+    width: 2%;
+  }
+  .imgHeader,
+  .eyeImageWrapper {
+    width: 2%;
+  }
+
+  .tHeader {
+    font-size: 1.5vw;
+    width: 12%;
+  }
+  /* .filterArwImage {
+    width: 2.5vw;
+  } */
+
+  .tContent {
+    font-size: 1.2vw;
+    gap: 0.1vw;
+    width: 12%;
+  }
+  .awBid {
+    width: 1.4vw;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .searchWrapper {
+    display: flex;
+    width: 24vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw;
+    border-radius: 3vw;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .searchLeft {
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.7vw;
+  }
+
+  .searchInput {
+    font-size: 1.7vw;
+  }
+
+  .filterArrow {
+    width: 2.2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .searchWrapper {
+    width: 22vw;
+  }
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.4vw;
+  }
+
+  .searchInput {
+    font-size: 1.4vw;
+  }
+
+  .header {
+    font-size: 3vw;
+    margin-top: 3vw;
+  }
+
+  .checkInput {
+    width: 1.8vw;
+    height: 1.8vw;
+  }
+  .imgHeader,
+  .eyeImageWrapper {
+    width: 1.8%;
+  }
+
+  .tHeader {
+    font-size: 1.4vw;
+    width: 11.5%;
+  }
+  .filterArwImage {
+    width: 1vw;
+  }
+
+  .tContent {
+    font-size: 1.1vw;
+    gap: 0.1vw;
+    width: 11.5%;
+  }
+  .awBid {
+    width: 1.4vw;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .searchWrapper {
+    width: 22vw;
+  }
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.4vw;
+  }
+
+  .searchInput {
+    font-size: 1.4vw;
+  }
+
+  .header {
+    font-size: 3vw;
+    margin-top: 3vw;
+  }
+
+  .checkInput {
+    width: 1.8vw;
+    height: 1.8vw;
+  }
+  .imgHeader,
+  .eyeImageWrapper {
+    width: 1.8%;
+  }
+
+  .tHeader {
+    font-size: 1.4vw;
+    width: 11.5%;
+  }
+  /* .filterArwImage {
+    width: 2.5vw;
+  } */
+
+  .tContent {
+    font-size: 1vw;
+    gap: 0.3vw;
+    width: 11.5%;
+  }
+  .awBid {
+    width: 1.2vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .tableContainer {
+    width: 80%;
+  }
+  .searchWrapper {
+    width: 20vw;
+  }
+
+  .searchLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .searchIcon {
+    width: 1.2vw;
+  }
+
+  .searchInput {
+    font-size: 1.2vw;
+  }
+
+  .header {
+    font-size: 2.2vw;
+    margin-top: 3vw;
+  }
+
+  .checkInput {
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+  .imgHeader,
+  .eyeImageWrapper {
+    width: 1.8%;
+  }
+
+  .tHeader {
+    font-size: 1.2vw;
+    width: 11%;
+    gap: 0.5vw;
+    cursor: pointer;
+  }
+  .filterArwImage {
+    width: 0.9vw;
+  }
+
+  .tContent {
+    font-size: 0.9vw;
+    gap: 0.3vw;
+    width: 11%;
+  }
+  .awBid {
+    width: 1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

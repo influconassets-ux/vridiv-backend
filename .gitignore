@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+**/utils/apikeys.json
+**/utils/driveapikeys.js
+
+# Build output
+dist/
+dist-ssr/
+
+# Uploads / temp
+viridivBackend/uploads/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.local

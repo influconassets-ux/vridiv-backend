@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container input {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vw;
+}
+.formWrapper {
+  display: flex;
+  gap: 2vw;
+}
+.dateWrapper {
+  font-size: 1vw;
+  display: flex;
+}
+
+.dateWrapper.active {
+  color: black;
+}
+.dateWrapper.inactive,
+.dateWrapper.inactive input {
+  color: gray;
+  pointer-events: none;
+}
+
+.selectOpt {
+  font-size: 1vw;
+  padding: 0.4vw;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 0.4vw;
+  outline: none;
+}
+
+.radioContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  margin-bottom: 1vw;
+}
+
+.radioWrapper label {
+  margin-left: 0.5vw;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7vw;
+}
+
+.dateLabel {
+  width: 5.5vw;
+}
+
+.btn {
+  outline: none;
+  background-color: brown;
+  border: none;
+  padding: 0.5vw 1vw;
+  color: wheat;
+  border-radius: 0.3vw;
+  transition: all 100ms ease;
+  cursor: pointer;
+}
+.btn:hover {
+  scale: 1.1;
+  background-color: rgb(121, 38, 38);
+}
+.buyersWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7vw;
+  margin-top: 1vw;
+  padding-left: 1vw;
+}
+.buyerInput {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+  font-size: 0.9vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .formWrapper {
+    gap: 3.5vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

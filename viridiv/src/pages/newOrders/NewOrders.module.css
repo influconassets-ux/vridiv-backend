@@ -1,0 +1,441 @@
+.container {
+  padding: 2vw 0vw;
+  position: relative;
+}
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2c2f48;
+}
+.loader {
+  width: 30vw;
+}
+.header {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.tableContainer {
+  width: 100%;
+}
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+}
+.tBody {
+  display: flex;
+  justify-content: center;
+}
+
+.tBody.addBody {
+  display: block;
+}
+.tHeader {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2vw;
+  position: relative;
+}
+.tBody {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 400;
+}
+.filterArwImage {
+  width: 1.3vw;
+  cursor: pointer;
+}
+.checkInput {
+  width: 2.5%;
+  color: blue;
+}
+.addCont {
+  font-weight: 400;
+  display: flex;
+  gap: 0.5vw;
+  /* justify-content: center; */
+}
+.medC {
+  width: 9.2%;
+}
+.smC {
+  width: 6.5%;
+}
+.bigC {
+  width: 13%;
+}
+.docC {
+  width: 10%;
+}
+.upIcon {
+  font-size: 1vw;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+.editContainer {
+  display: flex;
+
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.addHeader {
+  font-size: 1vw;
+}
+.addWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.addItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addItem label {
+  width: 20%;
+}
+.bankInput {
+  padding: 0.2vw 0.5vw;
+  width: 74%;
+}
+.mainAddress {
+  padding: 0.2vw 0.5vw;
+  width: 74%;
+  height: 4vw;
+  resize: none;
+}
+
+.bankBtn {
+  cursor: pointer;
+  background-color: rgb(143, 196, 214);
+
+  color: rgb(72, 72, 72);
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  border-radius: 0.3vw;
+  width: 100%;
+  /* margin-top: 0.5vw; */
+}
+.addFormWrapper {
+  background-color: #1c1e1f53;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow-y: auto; */
+}
+.addForm {
+  width: 40vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  border-radius: 0.7vw;
+  min-height: 20rem;
+  max-height: 98vh;
+  overflow-y: auto;
+}
+.addForm::-webkit-scrollbar {
+  width: 4px; /* Set your desired width */
+}
+
+.addForm::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.addForm::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* or any color */
+  border-radius: 10px;
+}
+
+.addForm::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.sameAddLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  font-size: 0.7vw;
+  cursor: pointer;
+}
+.closeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.7vw;
+  height: fit-content;
+  margin-bottom: -1.3vw;
+}
+.bodyRowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3vw;
+}
+.ofWrapper {
+  position: absolute;
+  bottom: -15vw;
+  left: 0;
+  z-index: 3;
+}
+.docOuterWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.topSec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0vw 2vw;
+  margin: 0 2vw;
+}
+.topRight {
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 1vw;
+}
+.topleft {
+  position: absolute;
+  left: 0;
+}
+.topBtn {
+  cursor: pointer;
+
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2vw;
+  border-radius: 0.3vw;
+}
+
+.sidebarContainer {
+  width: 100%;
+  height: 100%;
+  min-height: 89vh;
+  position: absolute;
+  top: 0;
+  transition: all 300ms ease;
+  z-index: 3;
+  background-color: white;
+  /* left: 0; */
+}
+.sidebarContainer.show {
+  left: 0;
+}
+.sidebarContainer.hide {
+  left: -100%;
+}
+.menuIcon {
+  font-size: 3vw;
+  width: fit-content;
+  cursor: pointer;
+  padding-left: 2vw;
+}
+.docContainer {
+  position: relative;
+}
+.docWrapper {
+  position: absolute;
+  left: -1.7vw;
+  z-index: 3;
+  top: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160%;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .header {
+    font-size: 2.4vw;
+    text-align: center;
+  }
+  .topSec {
+    margin-bottom: 2vw;
+  }
+  .topBtn {
+    padding: 0.8vw;
+    font-size: 1.4vw;
+  }
+  .tHeader {
+    font-size: 1vw;
+    gap: 0.2vw;
+    margin-top: 0vw;
+  }
+  .checkInput {
+    width: 2vw;
+    height: 2vw;
+  }
+  .bankBtn {
+    font-size: 1vw;
+  }
+  .docWrapper {
+    width: 190%;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .checkInput {
+    width: 2.5%;
+  } */
+  .sidebarContainer {
+    width: 35%;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .headerRow {
+    padding: 1.6vw;
+  }
+  .row {
+    padding: 0vw 0.6vw;
+  }
+  .bodyRowContainer {
+    padding: 0 1vw;
+  }
+  /* 
+  .checkInput {
+    width: 2.5%;
+  } */
+  .medC {
+    width: 9.2%;
+  }
+  .smC {
+    width: 6.5%;
+  }
+  .bigC {
+    width: 14%;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .tHeader {
+    font-size: 1vw;
+
+    gap: 0.5vw;
+    cursor: pointer;
+  }
+  .filterArwImage {
+    width: 0.9vw;
+  }
+  .checkInput {
+    width: 1.3vw;
+    height: 1.3vw;
+  }
+
+  .medC {
+    width: 9.5%;
+  }
+  .smC {
+    width: 6.5%;
+  }
+  .bigC {
+    width: 13.5%;
+  }
+  .docC {
+    width: 10%;
+  }
+  .upIcon {
+    font-size: 1.7vw;
+    margin-right: 2vw;
+  }
+
+  .addForm {
+    width: 25vw;
+    background-color: white;
+    padding: 1vw;
+  }
+  .ofWrapper {
+    position: absolute;
+    bottom: 0vw;
+    top: 1.8vw;
+    left: 0;
+    z-index: 3;
+  }
+
+  .topBtn {
+    padding: 0.8vw;
+    font-size: 1vw;
+  }
+  .sidebarContainer {
+    width: 25%;
+    background-color: white;
+    z-index: 10;
+    height: 100%;
+  }
+  .menuIcon {
+    font-size: 2vw;
+  }
+  .header {
+    font-size: 2vw;
+  }
+  .bankBtn {
+    font-size: 0.8vw;
+  }
+  .docWrapper {
+    width: 160%;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

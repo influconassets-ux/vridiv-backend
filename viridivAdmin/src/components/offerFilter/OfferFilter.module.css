@@ -1,0 +1,110 @@
+.container {
+  background: #fff;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background-color: #ffb751;
+  padding: 1vw;
+  gap: 0.5vw;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.fBtn {
+  color: #f5f5c9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  border-radius: 0.5vw;
+  padding: 0.7vw 0.7vw;
+  background: #002600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.filInput {
+  width: 2.2vw;
+}
+.item {
+  display: flex;
+  align-items: center;
+
+  gap: 0.6vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  list-style: none;
+}
+.cPriceInput {
+  width: 40%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    border-radius: 0.3vw;
+    padding: 1vw;
+    gap: 0.5vw;
+  }
+  .btnContainer {
+    gap: 1vw;
+  }
+
+  .fBtn {
+    font-size: 0.8vw;
+    border-radius: 0.3vw;
+    padding: 0.3vw 0.7vw;
+  }
+  .listContainer {
+    gap: 0.5vw;
+    justify-content: flex-start;
+  }
+  .filInput {
+    width: 1.1vw;
+    height: 1.1vw;
+  }
+  .item {
+    gap: 0.4vw;
+    font-weight: 600;
+    font-size: 1vw;
+    text-wrap: nowrap;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,492 @@
+.container {
+  width: 100%;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  padding-bottom: 5vw;
+}
+.wrapper {
+  border: 0.5px solid #002600;
+  border-radius: 3vw;
+  background: #f5f5c9;
+  padding-bottom: 4vw;
+  width: 70%;
+  position: relative;
+}
+.loadingScreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.loadingImage {
+  width: 2vw;
+}
+.topContainer {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  /* padding: 2vw 0 1vw; */
+  padding: 2.5vw;
+}
+.topHeader {
+  color: #023602;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+}
+.closeIcon {
+  position: absolute;
+  right: 2vw;
+  top: 19%;
+  width: 5vw;
+  cursor: pointer;
+}
+
+.formheaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  padding-top: 2.6vw;
+  margin-bottom: 2.5vw;
+}
+.formheader {
+  color: #000;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+}
+.formLogo {
+  width: 10vw;
+}
+
+.formContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.errText {
+  color: rgb(142, 42, 42);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.2vw;
+  width: 72%;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 72%;
+}
+.inputLabel {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.7vw;
+  width: 100%;
+}
+
+.inputField {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6vw;
+  border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+  background: rgba(148, 144, 1, 0.13);
+  padding: 1vw;
+  border-radius: 1vw;
+}
+.signUpLink {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2vw;
+  width: 72%;
+}
+.signUpLink span {
+  font-weight: 700;
+}
+
+.tncpp {
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.6vw;
+  width: 72%;
+}
+.tncpp a {
+  font-weight: 700;
+  color: var(--Text-Secondary, #4e4e4e);
+}
+.submitBtn {
+  width: 72%;
+  color: #f5f5c9;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1.5vw;
+  border: 0.6px solid #2e2e2e;
+  background: #002600;
+  outline: none;
+  font-size: 2.7vw;
+  padding: 1.3vw;
+  cursor: pointer;
+}
+
+.userTypeContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2vw;
+  color: var(--Text-Secondary, #4e4e4e);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6vw;
+}
+.userTypeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+}
+
+.orContainer {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.orLine {
+  height: 0.3px;
+  background-color: black;
+  width: 45%;
+}
+.radioBtnLabel {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+}
+.orText {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+}
+.googleContainer {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 1vw;
+  border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+  background: var(--Surface-1, #fff);
+  padding: 1.8vw 0;
+  cursor: pointer;
+}
+.gText {
+  color: var(--Text-Primary, #2e2e2e);
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-size: 2.7vw;
+}
+.gImage {
+  width: 3vw;
+  left: 7%;
+  position: absolute;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .signUpLink {
+    font-size: 1.7vw;
+    width: 72%;
+  }
+  .topHeader {
+    font-weight: 400;
+    font-size: 2.3vw;
+  }
+  .closeIcon {
+    right: 2vw;
+    top: 27%;
+    width: 3.5vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.5vw;
+    padding-top: 2.6vw;
+    margin-bottom: 2.5vw;
+  }
+  .formheader {
+    font-size: 3.4vw;
+  }
+  .formLogo {
+    width: 11vw;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .errText {
+    font-size: 1.6vw;
+    width: 72%;
+  }
+
+  .inputLabel {
+    font-size: 2.3vw;
+  }
+
+  .inputField {
+    width: 100%;
+    border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+    font-size: 2.1vw;
+  }
+
+  .submitBtn {
+    width: 72%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 2.3vw;
+    padding: 1.8vw;
+    padding-top: 1.6vw;
+  }
+  .userTypeWrapper {
+    gap: 0.6vw;
+  }
+  .radioBtnLabel {
+    font-size: 1.6vw;
+  }
+  .orText {
+    font-size: 2vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 85%;
+  }
+  .topHeader {
+    font-weight: 400;
+    font-size: 1.8vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.5vw;
+    padding-top: 2.6vw;
+    margin-bottom: 2.5vw;
+  }
+  .formheader {
+    font-size: 2.5vw;
+  }
+  .formLogo {
+    width: 7.5vw;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .signUpLink {
+    font-size: 1.4vw;
+    width: 85%;
+  }
+  .tncpp {
+    font-size: 1vw;
+    width: 85%;
+  }
+  .errText {
+    font-size: 1.2vw;
+    width: 85%;
+  }
+  .inputWrapper {
+    width: 85%;
+  }
+  .inputLabel {
+    font-size: 1.5vw;
+  }
+
+  .inputField {
+    width: 100%;
+    border: 0.6px solid var(--Text-Tertiary, #a2a2a2);
+    padding: 1.4vw;
+    border-radius: 1vw;
+    font-size: 1.4vw;
+  }
+
+  .submitBtn {
+    width: 85%;
+    border-radius: 1.5vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 1.8vw;
+    padding: 1.5vw;
+    padding-top: 1.6vw;
+  }
+  .orContainer {
+    width: 85%;
+  }
+
+  .orText {
+    font-size: 1.5vw;
+  }
+  .googleContainer {
+    width: 85%;
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    padding: 1.8vw 0;
+  }
+  .gText {
+    font-size: 2vw;
+  }
+  .gImage {
+    width: 2.4vw;
+    left: 7%;
+    position: absolute;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    width: 70%;
+    border-radius: 1.6vw;
+  }
+  .topContainer {
+    padding: 1.6vw;
+  }
+  .topHeader {
+    font-weight: 400;
+    font-size: 1.1vw;
+  }
+
+  .formheaderContainer {
+    gap: 0.5vw;
+    padding-top: 0.3vw;
+    margin-bottom: 1.7vw;
+  }
+  .formheader {
+    font-size: 2.5vw;
+  }
+  .formLogo {
+    width: 7.5vw;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+  .errText {
+    font-size: 0.9vw;
+    margin: -1vw 0;
+    width: 85%;
+  }
+  .signUpLink {
+    color: var(--Text-Secondary, #4e4e4e);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-top: -1vw;
+    margin-bottom: -0.6vw;
+    width: 85%;
+  }
+  .tncpp {
+    font-size: 0.7vw;
+    margin-top: -0.5vw;
+    width: 85%;
+  }
+  .inputWrapper {
+    width: 85%;
+  }
+  .inputLabel {
+    font-size: 1.1vw;
+  }
+
+  .inputField {
+    padding: 1vw;
+    border-radius: 0.8vw;
+    font-size: 1.2vw;
+  }
+
+  .submitBtn {
+    width: 85%;
+    border-radius: 0.8vw;
+    border: 0.6px solid #2e2e2e;
+
+    font-size: 1.3vw;
+    padding: 1vw;
+    padding-top: 1.1vw;
+  }
+  .orContainer {
+    width: 85%;
+  }
+
+  .orText {
+    font-size: 1vw;
+  }
+  .googleContainer {
+    width: 85%;
+    border-radius: 1vw;
+    border: 0.2px solid var(--Text-Secondary, #4e4e4e);
+    padding: 1.4vw 0;
+  }
+  .gText {
+    font-size: 1.3vw;
+  }
+  .gImage {
+    width: 2vw;
+    left: 7%;
+    position: absolute;
+  }
+  .loadingImage {
+    width: 50vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,57 @@
+.lotsTxt {
+  color: #202224;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 4.2vw;
+  margin-bottom: 3vw;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(48%, 48%));
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 4vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .lotsTxt {
+    font-size: 2.8vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .lotsTxt {
+    font-size: 1.8vw;
+    margin-bottom: 1.2vw;
+  }
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(17%, 20%));
+    justify-content: space-between;
+    gap: 2vw;
+    row-gap: 2.5vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

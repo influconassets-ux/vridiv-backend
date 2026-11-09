@@ -1,0 +1,297 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 80%;
+  position: relative;
+}
+.loadingScreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.loadingImage {
+  width: 2vw;
+}
+.header {
+  color: #002600;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 5vw;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.remTxt {
+  background-color: rgb(177, 35, 35);
+  color: white;
+  font-size: 1vw;
+  cursor: pointer;
+  margin-left: 0.5vw;
+  border: none;
+  outline: none;
+}
+.inputLabel {
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+.inputField {
+  border-radius: 1.5vw;
+  background: #f5f5c9;
+  color: #002600;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2vw;
+  padding: 2vw;
+  border: none;
+  outline: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.addWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 1vw;
+  background-color: #f5f5c9;
+  cursor: pointer;
+  overflow: hidden;
+}
+.previewImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.addImage {
+  width: 4vw;
+}
+.btn {
+  border-radius: 1.5vw;
+  border: 1px solid #f5f5c9;
+  background: #002600;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+  padding: 2vw;
+  cursor: pointer;
+}
+.addLabel {
+  width: fit-content;
+}
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7vw;
+  width: 100%;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .container {
+    padding-top: 6vh;
+    padding-bottom: 4vw;
+  }
+
+  .wrapper {
+    width: 60%;
+  }
+  .header {
+    font-size: 4vw;
+    margin-bottom: 6vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 6vh;
+    padding-bottom: 4vw;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+  .header {
+    font-size: 3vw;
+    margin-bottom: 6vw;
+  }
+
+  .formContainer {
+    gap: 4vw;
+  }
+
+  .inputWrapper {
+    gap: 1vw;
+  }
+
+  .inputLabel {
+    font-size: 1.5vw;
+  }
+
+  .inputField {
+    border-radius: 1.2vw;
+    font-size: 1.6vw;
+    padding: 1.6vw;
+  }
+
+  .addWrapper {
+    width: 10vw;
+    height: 9vw;
+    border-radius: 1vw;
+    background-color: #f5f5c9;
+  }
+
+  .addImage {
+    width: 4vw;
+  }
+  .btn {
+    border-radius: 1.1vw;
+    font-size: 1.5vw;
+    padding: 1.6vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding-top: 6vh;
+    padding-bottom: 4vw;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+  .header {
+    font-size: 2.7vw;
+    margin-bottom: 4vw;
+  }
+
+  .formContainer {
+    gap: 3vw;
+  }
+
+  .inputWrapper {
+    gap: 0.6vw;
+  }
+
+  .inputLabel {
+    font-size: 1.3vw;
+  }
+
+  .inputField {
+    border-radius: 1.2vw;
+    font-size: 1.4vw;
+    padding: 1.6vw;
+  }
+
+  .addWrapper {
+    width: 10vw;
+    height: 9vw;
+    border-radius: 1vw;
+    background-color: #f5f5c9;
+  }
+
+  .addImage {
+    width: 4vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding-top: 6vh;
+    padding-bottom: 4vw;
+  }
+
+  .wrapper {
+    width: 65%;
+  }
+  .header {
+    font-size: 2.3vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .formContainer {
+    gap: 3vw;
+  }
+
+  .inputWrapper {
+    gap: 0.6vw;
+  }
+
+  .inputLabel {
+    font-size: 1vw;
+  }
+
+  .inputField {
+    border-radius: 0.9vw;
+    font-size: 1.1vw;
+    padding: 1.2vw;
+  }
+
+  .addWrapper {
+    width: 10vw;
+    height: 8vw;
+    border-radius: 1vw;
+    background-color: #f5f5c9;
+  }
+
+  .addImage {
+    width: 3vw;
+  }
+  .btn {
+    border-radius: 0.8vw;
+    font-size: 1.2vw;
+    padding: 1.2vw;
+  }
+  .remTxt {
+    font-size: 0.8vw;
+    padding: 0.4vw 0.8vw;
+    border-radius: 0.2vw;
+  }
+  .loadingImage {
+    width: 50vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

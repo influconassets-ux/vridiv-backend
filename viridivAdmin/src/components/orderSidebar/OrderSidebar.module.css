@@ -1,0 +1,222 @@
+.container {
+  background-color: white;
+  width: 40%;
+  height: 100%;
+  border-right: 1px solid #e0e0e0;
+}
+.closeContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.header {
+  color: #023602;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.serachContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dce8c4;
+  padding: 2vw;
+}
+.searchWrapper {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 3vw;
+  padding: 1vw;
+  gap: 1vw;
+}
+.searchIcon {
+  width: 3vw;
+}
+
+.searchInput {
+  width: 80%;
+  color: var(--viridiv-com-heather, var(--color-azure-76, #b8c0cc));
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 1vw;
+  border-bottom: 1px solid #979797;
+  cursor: pointer;
+  background-color: white;
+}
+.card.allCard {
+  justify-content: center;
+}
+.cardLeft {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.8vw;
+}
+
+.cardRight {
+  color: #023602;
+  font-family: "Nunito Sans";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 40%;
+}
+
+.closeImage {
+  width: 2.2vw;
+  cursor: pointer;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .header {
+    padding-top: 4vw;
+    font-size: 2.2vw;
+  }
+
+  .serachContainer {
+    padding: 1.5vw;
+  }
+  .searchWrapper {
+    border-radius: 3vw;
+    padding: 1vw;
+    gap: 1vw;
+  }
+  .searchIcon {
+    width: 2.2vw;
+  }
+
+  .searchInput {
+    width: 80%;
+
+    font-size: 1.7vw;
+  }
+
+  .cardLeft {
+    font-size: 1.6vw;
+  }
+
+  .cardRight {
+    font-size: 1.6vw;
+
+    width: 40%;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .container {
+    width: 100%;
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .header {
+    padding-top: 3vw;
+    font-size: 1.8vw;
+  }
+
+  .serachContainer {
+    padding: 1.5vw;
+  }
+  .searchWrapper {
+    border-radius: 3vw;
+    padding: 1vw;
+    gap: 1vw;
+  }
+  .searchIcon {
+    width: 1.6vw;
+  }
+
+  .searchInput {
+    width: 80%;
+
+    font-size: 1.4vw;
+  }
+
+  .cardLeft {
+    font-size: 1.2vw;
+  }
+
+  .cardRight {
+    font-size: 1.2vw;
+
+    width: 40%;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 100%;
+
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .header {
+    padding-top: 2.5vw;
+    font-size: 1.8vw;
+  }
+
+  .serachContainer {
+    padding: 1.5vw;
+  }
+  .searchWrapper {
+    border-radius: 3vw;
+    padding: 0.7vw;
+    gap: 1vw;
+  }
+  .searchIcon {
+    width: 1.4vw;
+  }
+
+  .searchInput {
+    width: 805;
+
+    font-size: 1.2vw;
+  }
+
+  .cardLeft {
+    font-size: 1vw;
+  }
+
+  .cardRight {
+    font-size: 1vw;
+
+    width: 40%;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

@@ -1,0 +1,67 @@
+.container {
+  padding: 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+  width: 30vw;
+}
+
+.content {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+.del {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2vw;
+  font-size: 3vw;
+}
+.delInner {
+  width: fit-content;
+  cursor: pointer;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .del {
+    margin-top: 2vw;
+    font-size: 2vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .content {
+    font-size: 1vw;
+  }
+  .container {
+    padding: 1vw;
+    border-radius: 0.5vw;
+    width: auto;
+  }
+  .del {
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

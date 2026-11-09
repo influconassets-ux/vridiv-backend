@@ -1,0 +1,134 @@
+.container {
+  padding: 3vw 4vw;
+  padding-bottom: 10vw;
+  background: #fff;
+}
+
+.header {
+  color: #002600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1vw;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(47%, 47%));
+  justify-content: space-between;
+  row-gap: 6vw;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vw;
+}
+.btn {
+  color: #f5f5c9;
+  text-shadow: 0px 1.091px 4.365px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+  border: 0.546px solid #f5f5c9;
+  background: #002600;
+  box-shadow: 0px 9.821px 15.277px -5.456px rgba(148, 144, 1, 0.57) inset,
+    0px 0px 0px 1.091px #f5f5c9;
+  font-weight: 600;
+  font-size: 2.8vw;
+  border-radius: 1vw;
+  padding: 1vw;
+  transition: all 500ms ease-in-out;
+}
+.btn:hover {
+  box-shadow: 0px 0px 12px 4px rgba(148, 144, 1, 0.5),
+    0px 9.821px 15.277px -5.456px rgba(148, 144, 1, 0.57) inset,
+    0px 0px 0px 1.091px #f5f5c9;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+  .btn {
+    font-size: 2.6vw;
+    border-radius: 1vw;
+    padding: 1vw;
+  }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+  .cardContainer {
+    grid-template-columns: repeat(4, minmax(24%, 24%));
+    justify-content: space-between;
+    row-gap: 0vw;
+  }
+  .btnContainer {
+    margin-top: 3vw;
+  }
+  .btn {
+    font-size: 2.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    padding: 1vw;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .cardContainer {
+    grid-template-columns: repeat(4, minmax(23%, 23%));
+    justify-content: space-between;
+    row-gap: 0vw;
+  }
+  .btn {
+    font-size: 1.9vw;
+    border-radius: 1vw;
+    padding: 1vw;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .btnContainer {
+    margin-top: 1vw;
+  }
+  .btn {
+    font-size: 1.4vw;
+    border-radius: 1vw;
+    padding: 1vw;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .header {
+    font-size: 3.2vw;
+    margin-bottom: 1vw;
+  }
+  .container {
+    padding: 2vw 7vw;
+    padding-bottom: 10vw;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(4, minmax(22%, 22%));
+  }
+  .btnContainer {
+    margin-top: 1vw;
+  }
+  .btn {
+    font-size: 1.2vw;
+    border-radius: 1vw;
+    padding: 1vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

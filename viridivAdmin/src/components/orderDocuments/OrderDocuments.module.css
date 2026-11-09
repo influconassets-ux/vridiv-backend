@@ -1,0 +1,77 @@
+.docOuterWrapper {
+  width: 100%;
+
+  background-color: rgb(244, 244, 141);
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+.docOuterWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+.upIcon {
+  font-size: 1vw;
+  width: fit-content;
+  height: fit-content;
+}
+.docWrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.1vw;
+  font-family: "Nunito Sans", sans-serif;
+}
+.editContainer {
+  display: flex;
+
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.bankBtn {
+  cursor: pointer;
+  background-color: #005b9f;
+
+  color: white;
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  border-radius: 0.3vw;
+  font-size: 1vw;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .upIcon {
+    font-size: 1.4vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

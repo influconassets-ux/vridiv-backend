@@ -1,0 +1,36 @@
+@media only screen and (min-width: 375px) {
+}
+
+
+@media only screen and (min-width: 480px) {
+    
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+
+}

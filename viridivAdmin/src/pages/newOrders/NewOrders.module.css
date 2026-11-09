@@ -1,0 +1,405 @@
+.container {
+  padding: 2vw 2vw;
+  position: relative;
+}
+.loaderContainer {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  top: 0;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+  background-color: #2628298a;
+}
+.loader {
+  width: 16vw;
+  height: 16vw;
+}
+.header {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.tableContainer {
+  width: 100%;
+}
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+}
+.tBody {
+  display: flex;
+  justify-content: center;
+}
+.ofWrapper {
+  position: absolute;
+  bottom: -15vw;
+  left: 0;
+  z-index: 3;
+}
+
+.tBody.addBody {
+  display: flex;
+  justify-content: center;
+}
+.tHeader {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2vw;
+  position: relative;
+}
+.tBody {
+  color: #202224;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 400;
+}
+.filterArwImage {
+  width: 1.3vw;
+  cursor: pointer;
+}
+.checkInput {
+  width: 2.5%;
+  color: blue;
+}
+.addCont {
+  font-weight: 400;
+  display: flex;
+  gap: 0.5vw;
+  /* justify-content: center; */
+}
+.medC {
+  width: 9.2%;
+}
+.smC {
+  width: 6.5%;
+}
+.bigC {
+  width: 13%;
+}
+.upIcon {
+  font-size: 1vw;
+  width: fit-content;
+  height: fit-content;
+}
+.editContainer {
+  display: flex;
+
+  justify-content: center;
+  gap: 0.5vw;
+}
+.bankWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.bankInput {
+  padding: 0.2vw 0.5vw;
+  width: 60%;
+}
+.bankText {
+  width: 38%;
+  text-wrap: noWrap;
+}
+.bankBtn {
+  cursor: pointer;
+  background-color: rgb(168, 231, 168);
+  color: rgb(72, 72, 72);
+
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  border-radius: 0.3vw;
+}
+
+.viewBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 253, 97);
+  color: grey;
+  padding: 0.1vw 0.5vw;
+  cursor: pointer;
+  border-radius: 0.2vw;
+  font-size: 0.8vw;
+  position: relative;
+  width: fit-content;
+}
+
+.viewBtn:hover .bList {
+  opacity: 1;
+  z-index: 100;
+  transition: all 200ms ease;
+}
+
+.bList {
+  position: absolute;
+  top: 1.5vw;
+  left: 0;
+  background-color: white;
+  padding: 1vw;
+  opacity: 0;
+  z-index: -5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5vw;
+  transition: all 300ms ease;
+  min-width: 10vw;
+  list-style: none;
+}
+
+.blistItem {
+  list-style: none;
+  color: #202224;
+  font-family: "Nunito Sans";
+  font-size: 0.9vw;
+  text-wrap: nowrap;
+  padding: 0.2vw 0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: left;
+}
+
+.blistItem:last-child {
+  border-bottom: none;
+}
+
+.bodyRowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3vw;
+}
+.statusText {
+  text-align: center;
+  font-size: 1vw;
+}
+.topSec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0.4vw 2vw;
+  margin: 0 2vw;
+}
+.topRight {
+  position: absolute;
+  display: flex;
+  gap: 0.8vw;
+  right: 0;
+}
+.topleft {
+  position: absolute;
+  left: 0;
+}
+.topBtn {
+  cursor: pointer;
+  background-color: rgb(143, 196, 214);
+  color: rgb(72, 72, 72);
+  padding: 0.4vw;
+  outline: none;
+  border: none;
+  border-radius: 0.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3vw;
+  font-size: 0.8vw;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+.docWrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+.docOuterWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.menuIcon {
+  font-size: 3vw;
+  width: fit-content;
+  cursor: pointer;
+}
+.sidebarContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 300ms ease;
+  z-index: 3;
+  background-color: white;
+  /* left: 0; */
+}
+.sidebarContainer.show {
+  left: 0;
+}
+.sidebarContainer.hide {
+  left: -100%;
+}
+.docBtnWrapper {
+  position: relative;
+}
+.docModal {
+  position: absolute;
+  width: 200%;
+  right: 0;
+  top: 3vw;
+  z-index: 3;
+}
+.cnDaysWrapper {
+  width: fit-content;
+  background-color: #70baf3;
+  padding: 0.5vw;
+}
+.cnDays {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .checkInput {
+    width: 2.5%;
+  }
+  .sidebarContainer {
+    width: 35%;
+  }
+}
+
+/*(900px and up) */
+@media only screen and (min-width: 900px) {
+  .checkInput {
+    width: 2.5%;
+  }
+  .medC {
+    width: 9.2%;
+  }
+  .smC {
+    width: 6.5%;
+  }
+  .bigC {
+    width: 14%;
+  }
+  .headerRow {
+    padding: 1.6vw;
+  }
+  .row {
+    padding: 0vw 0.6vw;
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); */
+  }
+  .bodyRowContainer {
+    padding: 0 1vw;
+  }
+  .container {
+    padding: 2vw 0;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .tHeader {
+    font-size: 1.1vw;
+
+    gap: 0.5vw;
+    cursor: pointer;
+  }
+  .filterArwImage {
+    width: 0.9vw;
+  }
+  .checkInput {
+    width: 1.3vw;
+    height: 1.3vw;
+  }
+
+  .medC {
+    width: 8.7%;
+  }
+  .smC {
+    width: 6.5%;
+  }
+  .bigC {
+    width: 14.5%;
+  }
+  .upIcon {
+    font-size: 1.4vw;
+  }
+  .statusText {
+    font-size: 0.9vw;
+  }
+  .topBtn {
+    padding: 0.8vw;
+  }
+  .docWrapper {
+    padding: 0 0.5vw;
+  }
+  .ofWrapper {
+    position: absolute;
+    bottom: 0vw;
+    top: 1.8vw;
+    left: 0;
+    z-index: 3;
+  }
+  .menuIcon {
+    font-size: 2vw;
+    margin-left: 1vw;
+    cursor: pointer;
+  }
+  .sidebarContainer {
+    width: 25%;
+    background-color: white;
+    z-index: 10;
+    height: 100%;
+  }
+  .header {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  .bodyRowContainer {
+    gap: 0.6vw;
+  }
+  .cnDays {
+    font-size: 0.8vw;
+  }
+}
+
+/*  (1350px and up) */
+@media only screen and (min-width: 1440px) {
+}

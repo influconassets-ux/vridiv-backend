@@ -1,0 +1,49 @@
+.container {
+  background-color: rgb(114, 190, 220);
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.5vw;
+}
+
+.btn {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.8vw;
+  border-radius: 2vw;
+  padding: 0.4vw 0.8vw;
+  background: #2630e6;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 1vw;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+}
+.inputLable {
+  width: 60%;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+}
+.inputField {
+  width: 30%;
+  padding: 0.5vw;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  text-align: center;
+}
